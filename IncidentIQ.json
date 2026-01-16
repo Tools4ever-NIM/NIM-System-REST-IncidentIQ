@@ -1,6 +1,5 @@
 {
     "schema": {
-        "options": {},
         "crud_objects": {
             "Assets": {
                 "operations": {
@@ -12,11 +11,9 @@
                         },
                         "processing_options": {
                             "output_field": "Items"
-                        },
-                        "query_parameters": {}
+                        }
                     }
                 },
-                "parameters": {},
                 "key": "AssetId",
                 "resources": {
                     "AssetId": "string*",
@@ -131,8 +128,7 @@
                         },
                         "processing_options": {
                             "output_field": "Items"
-                        },
-                        "query_parameters": {}
+                        }
                     },
                     "Asset_TypesUpdate": {
                         "method": "post",
@@ -149,7 +145,6 @@
                         ]
                     }
                 },
-                "parameters": {},
                 "key": "AssetTypeId",
                 "resources": {
                     "AssetTypeId": "string*",
@@ -173,11 +168,9 @@
                         },
                         "processing_options": {
                             "output_field": "Items"
-                        },
-                        "query_parameters": {}
+                        }
                     }
                 },
-                "parameters": {},
                 "key": "AssetFundingTypeId",
                 "resources": {
                     "AssetFundingTypeId": "string*",
@@ -196,11 +189,9 @@
                         },
                         "processing_options": {
                             "output_field": "Items"
-                        },
-                        "query_parameters": {}
+                        }
                     }
                 },
-                "parameters": {},
                 "key": "AssetStatusTypeId",
                 "resources": {
                     "AssetStatusTypeId": "string*",
@@ -220,11 +211,9 @@
                         },
                         "processing_options": {
                             "output_field": "Items"
-                        },
-                        "query_parameters": {}
+                        }
                     }
                 },
-                "parameters": {},
                 "key": "CustomFieldId",
                 "resources": {
                     "SiteId": "ffa98c13-f4cb-4073-aa27-c260d17ea00f",
@@ -256,11 +245,9 @@
                         },
                         "processing_options": {
                             "output_field": "Items"
-                        },
-                        "query_parameters": {}
+                        }
                     }
                 },
-                "parameters": {},
                 "key": "AssetTypeId",
                 "resources": {
                     "SiteId": "string*",
@@ -309,11 +296,9 @@
                         },
                         "processing_options": {
                             "output_field": "Items"
-                        },
-                        "query_parameters": {}
+                        }
                     }
                 },
-                "parameters": {},
                 "key": "FilterId",
                 "resources": {
                     "FilterId": "string*",
@@ -332,7 +317,8 @@
                     "CreatedDate": "string*",
                     "ModifiedDate": "string*",
                     "OriginSourceId": "string*"
-                }                
+                }
+                
             },
             "Locations": {
                 "operations": {
@@ -347,11 +333,9 @@
                         },
                         "processing_options": {
                             "output_field": "Items"
-                        },
-                        "query_parameters": {}
+                        }
                     }
                 },
-                "parameters": {},
                 "key": "LocationId",
                 "resources": {
                     "Meta": {
@@ -407,11 +391,9 @@
                         },
                         "processing_options": {
                             "output_field": "Items"
-                        },
-                        "query_parameters": {}
+                        }
                     }
                 },
-                "parameters": {},
                 "key": "LocationRoomId",
                 "resources": {
                     "Meta": {
@@ -436,11 +418,9 @@
                         },
                         "processing_options": {
                             "output_field": "Items"
-                        },
-                        "query_parameters": {}
+                        }
                     }
                 },
-                "parameters": {},
                 "key": "LocationTypeId",
                 "resources": {
                     "Meta": {
@@ -461,11 +441,9 @@
                         },
                         "processing_options": {
                             "output_field": "Item"
-                        },
-                        "query_parameters": {}
+                        }
                     }
                 },
-                "parameters": {},
                 "key": "id",
                 "resources": {
                     "StatusTypeId":  "string*",
@@ -785,11 +763,9 @@
                         },
                         "processing_options": {
                             "output_field": "Items"
-                        },
-                        "query_parameters": {}
+                        }
                     }
                 },
-                "parameters": {},
                 "key": "UserId",
                 "resources": {
                     "UserId": "string*",
@@ -962,12 +938,10 @@
         "config": {
             "baseUrl": "https://{tenant_id}",
             "get": {
-                "query_parameters": {},
                 "pagination":{
                     "mode":"generic",
                     "zero_based": true,
                     "totalAttribute": "Paging.TotalRows",
-                    "path":[],
                     "params":{
                         "$p":"{page_number}",
                         "$s":"{page_size}"
@@ -1017,12 +991,6 @@
                 "name": "site_id",
                 "type": "textbox",
                 "label": "Site Id",
-                "value": ""
-            },
-            {
-                "name": "user_Id",
-                "type": "textbox",
-                "label": "User Id",
                 "value": ""
             },
             {
