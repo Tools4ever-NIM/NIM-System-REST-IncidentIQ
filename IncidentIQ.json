@@ -8,7 +8,7 @@
                         "method": "get",
                         "verb": "post",
                         "call": {
-                            "path": "/services/assets"
+                            "path": "/api/v1.0/assets"
                         },
                         "processing_options": {
                             "output_field": "Items"
